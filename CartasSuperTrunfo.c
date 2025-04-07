@@ -26,7 +26,7 @@ int main() {
 
     //Cadastro da Carta 1
     printf("Carta 1:\n");
-    printf("Digite uma letra de A a H para o Estado:  \n");
+    printf("Digite uma letra de A a H para o Estado: \n");
     scanf("%c", &Estado1);
     printf("Digite a letra do estado que você escolheu em seguida de um número de 01 a 04 (ex: A01, B03): \n");
     scanf("%s", Carta1);
@@ -42,8 +42,9 @@ int main() {
     scanf("%d", &pontos_turisticos1);
 
     //Cadastro da Carta 2
-    printf("\n Carta 2:\n");
-    printf("Digite uma letra de A a H para o Estado:  \n");
+    printf("Carta 2:\n");
+    printf("Digite uma letra de A a H para o Estado: \n");
+    getchar();
     scanf("%c", &Estado2);
     printf("Digite a letra do estado que você escolheu em seguida de um número de 01 a 04 (ex: A01, B03): \n");
     scanf("%s", Carta2);
