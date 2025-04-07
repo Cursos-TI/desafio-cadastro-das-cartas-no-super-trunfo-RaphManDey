@@ -33,7 +33,7 @@ int main() {
     printf("Digite a letra do estado que você escolheu em seguida de um número de 01 a 04 (ex: A01, B03): \n");
     scanf("%s", Carta1);
     printf("Nome da cidade: \n");
-    scanf("%s", &Cidade1);
+    scanf("%s", Cidade1);
     printf("População: \n");
     scanf("%d", &Populacao1);
     printf("Área: \n");
@@ -50,7 +50,7 @@ int main() {
     printf("Digite a letra do estado que você escolheu em seguida de um número de 01 a 04 (ex: A01, B03): \n");
     scanf("%s", Carta2);
     printf("Nome da cidade: \n");
-    scanf("%s", &Cidade2);
+    scanf("%s", Cidade2);
     printf("População: \n");
     scanf("%d", &Populacao2);
     printf("Área: \n");
