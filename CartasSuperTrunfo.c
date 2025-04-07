@@ -28,7 +28,7 @@ int main() {
     printf("Carta 1:\n");
     printf("Digite uma letra de A a H para o Estado: \n");
     scanf("%c", &Estado1);
-    printf("Digite a letra do estado que você escolheu em seguida de um número de 01 a 04 (ex: A01, B03): \n");
+    printf("Digite a letra do estado que você escolheu em seguida de um número de 01 a 04 (ex: A01, B03 e etç): \n");
     scanf("%s", Carta1);
     printf("Nome da cidade: \n");
     scanf("%s", Cidade1);
@@ -46,7 +46,7 @@ int main() {
     printf("Digite uma letra de A a H para o Estado: \n");
     getchar();
     scanf("%c", &Estado2);
-    printf("Digite a letra do estado que você escolheu em seguida de um número de 01 a 04 (ex: A01, B03): \n");
+    printf("Digite a letra do estado que você escolheu em seguida de um número de 01 a 04 (ex: A01, B03 e etç): \n");
     scanf("%s", Carta2);
     printf("Nome da cidade: \n");
     scanf("%s", Cidade2);
