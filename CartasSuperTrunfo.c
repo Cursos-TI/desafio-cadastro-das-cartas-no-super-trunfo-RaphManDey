@@ -4,7 +4,6 @@
 // Tema 1 - Cadastro das Cartas
 // Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
 // Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
 
 int main() {
     printf("Desafio Cartas Super Trunfo");
@@ -13,8 +12,8 @@ int main() {
     char Estado1;
     char Carta1[4];
     char Cidade1[40];
-    int População1;
-    float Área1;
+    int Populacao1;
+    float Area1;
     float Pib1;
     int pontos_turisticos1;
 
@@ -22,8 +21,8 @@ int main() {
     char Estado2;
     char Carta2[4];
     char Cidade2[40];
-    int População2;
-    float Área2;
+    int Populacao2;
+    float Area2;
     float Pib2;
     int pontos_turisticos2;
 
@@ -36,9 +35,9 @@ int main() {
     printf("Nome da cidade: \n");
     scanf("%s", &Cidade1);
     printf("População: \n");
-    scanf("%d", &População1);
+    scanf("%d", &Populacao1);
     printf("Área: \n");
-    scanf("%f", &Área1);
+    scanf("%f", &Area1);
     printf("PIB: \n");
     scanf("%f", &Pib1);
     printf("Números de pontos túristicos: \n");
@@ -53,9 +52,9 @@ int main() {
     printf("Nome da cidade: \n");
     scanf("%s", &Cidade2);
     printf("População: \n");
-    scanf("%d", &População2);
+    scanf("%d", &Populacao2);
     printf("Área: \n");
-    scanf("%f", &Área2);
+    scanf("%f", &Area2);
     printf("PIB: \n");
     scanf("%f", &Pib2);
     printf("Números de pontos túristicos: \n");
@@ -65,21 +64,21 @@ int main() {
     printf("Carta 1:\n");
     printf("Estado: %c \n", Estado1);
     printf("Código: %s \n", Carta1);
-    printf("População: %d \n", População1);
+    printf("População: %d \n", Populacao1);
     printf("Nome da Cidade: %s \n", Cidade1);
-    printf("Área: %.2f km² \n", Área1);
+    printf("Área: %.2f km² \n", Area1);
     printf("PIB: %.2f bilhões de reais \n", Pib1);
-    printf("Números de Pontos Turísticos: %d \n\n", pontos_turísticos1);
+    printf("Números de Pontos Turísticos: %d \n\n", pontos_turisticos1);
     
     //exibição dos dados da segunda carta
     printf("Carta 2:\n");
     printf("Estado: %c \n", Estado2);
     printf("Código: %s \n", Carta2);
-    printf("População: %d \n", População2);
+    printf("População: %d \n", Populacao2);
     printf("Nome da Cidade: %s \n", Cidade2);
-    printf("Área: %.2f km² \n", Área2);
+    printf("Área: %.2f km² \n", Area2);
     printf("PIB: %.2f bilhões de reais \n", Pib2);
-    printf("Números de Pontos Turísticos: %d \n", pontos_turísticos2);
+    printf("Números de Pontos Turísticos: %d \n", pontos_turisticos2);
 
     return 0;
 }
