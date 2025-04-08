@@ -4,7 +4,7 @@
 // Tema 1 - Cadastro das Cartas
 
 int main() {
-    printf("Desafio Cartas Super Trunfo");
+    printf("Desafio Cartas Super Trunfo\n");
 
     //Declarações das variáveis da 1 Carta
     char Estado1;
@@ -31,11 +31,11 @@ int main() {
     //Cadastro da Carta 1
     printf("Carta 1:\n");
     printf("Digite uma letra de A a H para o Estado: \n");
-    scanf("%c", &Estado1);
+    scanf(" %c", &Estado1);
     printf("Digite a letra do estado que você escolheu em seguida de um número de 01 a 04 (ex: A01, B03 e etç): \n");
     scanf("%s", Carta1);
-    printf("Nome da cidade: \n");
-    scanf(" %s", Cidade1);
+    printf("Nome da cidade(sem espaço, use _): \n");
+    scanf("%s", Cidade1);
     printf("População: \n");
     scanf("%d", &Populacao1);
     printf("Área: \n");
@@ -52,11 +52,11 @@ int main() {
     //Cadastro da Carta 2
     printf("Carta 2:\n");
     printf("Digite uma letra de A a H para o Estado: \n");
-    scanf("%c", &Estado2);
+    scanf(" %c", &Estado2);
     printf("Digite a letra do estado que você escolheu em seguida de um número de 01 a 04 (ex: A01, B03 e etç): \n");
     scanf("%s", Carta2);
-    printf("Nome da cidade: \n");
-    scanf(" %s", Cidade2);
+    printf("Nome da cidade(sem espaço, use _): \n");
+    scanf("%s", Cidade2);
     printf("População: \n");
     scanf("%d", &Populacao2);
     printf("Área: \n");
@@ -69,6 +69,9 @@ int main() {
     //Calculos da Densidade Populacional e PIB Per Capita
     float Densidade_Populacional2 = Populacao2 / Area2;
     float Pib_per_Capita2 = (Pib2 * 1000000000) / Populacao2;
+     
+    //Espaçamento
+    printf("------------------ \n");
 
     //exibição dos dados da primeira carta
     printf("Carta 1:\n");
