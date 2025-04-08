@@ -13,7 +13,7 @@ int main() {
     int Populacao1;
     float Area1;
     float Pib1;
-    int pontos_turisticos1;
+    int Pontos_turisticos1;
 
     //Declaração de variáveis da 2 Carta
     char Estado2;
@@ -22,7 +22,7 @@ int main() {
     int Populacao2;
     float Area2;
     float Pib2;
-    int pontos_turisticos2;
+    int Pontos_turisticos2;
 
     //Cadastro da Carta 1
     printf("Carta 1:\n");
